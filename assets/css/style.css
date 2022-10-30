@@ -1,0 +1,487 @@
+*{
+    padding: 0;;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Square Peg', cursive;
+}
+html{
+font-size: 62.5%;
+}
+/*begin main band */
+.main__band{
+width: 100%;
+
+}
+/* the end begin main band  */
+
+/* begin header */
+.header{
+   display: flex;
+   height: 8rem;
+   font-size: 2rem;
+   background-color: aqua;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+}
+.nav_header{
+    width: 85%;
+}
+.nav_main_left{
+    display: flex;
+    padding: 0 5rem;
+    position: relative;
+}
+.nav_main_left > li{
+   list-style: none;
+   line-height: 8rem;
+   
+}
+.nav_main_left li > a{
+   text-decoration: none;
+   color: black;  
+   padding: 0 1rem;
+}
+.nav_sub > li{
+   list-style: none;
+   display: none;
+ 
+}
+.nav_sub{
+    position: absolute;
+}
+.nav_sub > li> a{
+    text-decoration: none;
+    color: black;
+    height: 8rem;
+    padding: 0 1rem;
+}
+ .nav_main_left li:hover > a{
+    background-color: aquamarine;
+    display: block;
+    justify-content: center;
+    color: white;
+}
+.nav_main_left > li:hover > .nav_sub li{
+    display: block;
+    background-color: #00c8ffaa;
+}
+.icon_right{
+width: 15%;
+display: flex;
+height: 8rem;
+justify-content: flex-end;
+padding-right: 5rem;
+}
+.icon_right a{
+    text-decoration: none;
+    color: black;
+}
+.icon_right i{
+    line-height: 8rem;
+    padding: 0 3rem;
+}
+.icon_right a:hover i{
+    background-color: antiquewhite;
+    color: red;
+}
+/* the end header */
+
+/* begin slider */
+.slider{
+  margin-top: 8rem;
+  width: 100%;
+  height: 80rem;
+ 
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    position: inherit;
+}
+/* .slider   .title_slider, .content_slider{
+    position: absolute;
+    top: 50rem;
+    color: aliceblue;
+    
+}
+.slider   .title_slider{
+top: 48%;
+position: absolute;
+transform: translateX(400%);
+font-size: 2rem;
+}
+.slider .content_slider {
+    transform: translateX(70%);
+    font-size: 2rem ;
+}
+.slider    .content_slider:hover{
+display: block; */
+
+
+/* the end slider */
+
+/* begin content the band boody*/
+.content_block_theband {
+
+}
+.content_for_css{
+    margin-top: 5rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+.Theband_title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 2rem auto;
+    letter-spacing: 4px;
+}
+.sologen_theband{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: lighter;
+    color: gray;
+}
+.content_band{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-justify: auto;
+    text-align: justify;
+}
+.profile_photo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem 0;
+}
+.profile_photo img{
+width: 90%;
+}
+.profile_photo .name{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem ;
+    font-size: 1.5rem;
+}
+
+
+.block_tour_dates{
+    background-color: black;
+}
+.tour_content_css{
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+.title_tour{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-top: 4rem ;
+    padding-bottom: 2.5rem;
+    letter-spacing: 4px;
+    color: white;
+}
+.sologen_tour{
+    font-size: 1.5rem;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.list_moths{
+    list-style: none;
+    padding: 3rem 0;
+    color: antiquewhite;
+}
+.list_moths li{
+width: 100%;
+background-color: aquamarine;
+border-bottom:  2px black solid;
+padding: 1rem;
+color: black;
+font-size: 1.2rem;
+}
+.block_information_country {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    width: 100%;
+    height: 57rem;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    
+}
+.country_newyork {
+height: 30rem;
+width: 30%;
+}
+.country_newyork .content_css{
+    width: 100%;
+    height: 90%;
+}
+.country_newyork .content_css img{
+width: 100%;
+}
+
+
+.country_paris {
+    height: 30rem;
+    width: 30%;
+}
+.country_paris .content_css{
+    width: 100%;
+    height: 90%;
+}
+.country_paris .content_css img{
+    width: 100%;
+}
+
+
+
+.country_sanfran{
+    height: 30rem;
+    width: 30%;
+}
+.country_sanfran .content_css {
+    width: 100%;
+    height: 90%;
+}
+.country_sanfran .content_css  img{
+    width: 100%;
+}
+
+
+
+.date, .namecountry, .content_country{
+    color: white;
+    font-size: 1.5rem;
+}
+.contact_nearfooter{
+    height: 40%;
+    width: 100%;
+    padding: 2rem 0;
+}
+.contact_nearfooter .title_contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    letter-spacing: 4px ;
+}
+.contact_nearfooter .sologen{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 2rem;
+}
+.buy_ticket{
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+}
+.buy_ticket:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+.information_important{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.information_left .map{
+    font-size: 2rem;
+}
+.information_left .contact{
+    font-size: 2rem;
+}
+.information_left .mail{
+    font-size: 2rem;
+}
+
+
+
+.information_right  .name{
+    width: 20rem;
+    padding: 0rem 1.2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+.information_right .email{
+    width: 20rem;
+    padding: 0rem 1.2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+.information_right .Message{
+    margin-top: 1.2rem;
+    width: 40.2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+.information_right .send{
+    float: right;
+    padding: 1rem 2rem;
+    border: solid 2px blue;
+    color: blue;
+}
+.send:hover{
+    background-color: azure;
+    color: black;
+}
+/* begin mapeverynice */
+.mapverynice{
+    margin-top: 15rem;
+    width: 100%;
+    height: 60rem;
+}
+.mapverynice .map_img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}
+/* the end body */
+
+/* begin footer */
+.footer{
+height: 20rem;
+width: 100%;
+display: inline-block;
+position: relative;
+top: 15rem;
+bottom: 10rem;
+}
+.footer .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0;
+    font-size: 2rem;
+}
+.footer .icon i{
+    padding: 0 0.4rem;
+    color: gray;
+}
+.footer  .power{
+display: flex;
+justify-content: center;
+font-size: 1.5rem;
+color: gray;
+}
+.footer  .power a{
+    color: gray;
+    margin-left: 0.5rem;
+}
+/* the end footer */
+
+
+/* begin buy ticket */
+.modal_buyticket{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display:none;
+}
+
+.modal_buyticket.open{
+    display: flex;
+}
+.modal_content{
+    background-color: rgba(174, 199, 174, 0.822);
+    background-color: white;
+    min-height: 45rem;
+    min-width: 60rem;
+    position: relative;
+    max-width: calc(100%-50%);
+    animation: Modalfacein ease 0.5s;
+}
+.modal_close{
+position: absolute;
+right: 0;
+}
+.modal_close i{
+    padding: 1.4rem;
+    font-size: 3rem;
+    color: white;
+}
+.modal_close:hover i{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+.modal_content .modal_header{
+    min-height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: aqua;
+}
+.modal_body{
+    margin: 0 1rem;
+    min-height: 20rem;
+    background-color: white;
+}
+.label_bodd{
+    display: block;
+    padding-top: 2rem;
+    font-size: 1.4rem;
+}
+.modal_input{
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 1.2rem;
+}
+#modal_button{
+    display: block;
+    margin-top: 1.2rem;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    border: none;
+    border: 1px solid white;
+}
+#modal_button:hover{
+    background-color: aqua;
+    color: white;
+    transition: 0.7s;
+}
+.help_modal{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    padding-right: 2rem;
+}
+.help_modal .help_css{
+    margin-left: 0.5rem;
+}
+
+
+@keyframes Modalfacein{
+    from{
+        opacity: 0;
+        transform: translateY(-174px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* the end buy ticket */
