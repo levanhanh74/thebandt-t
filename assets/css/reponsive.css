@@ -1,0 +1,163 @@
+@media screen and (max-width: 675px ) {
+   .header{
+    display: block;
+    line-height: 8rem;
+   }
+   .nav_main_left li:first-child{
+    display: inline-block;
+   }
+   .nav_main_left{
+    display: block;
+   }
+   .icon_right{
+    display: none;
+   }
+   .menuMobile{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    padding-right: 2rem;
+   }
+   .menuMobile i{
+    transition: all linear 0.5;
+   }
+   .menuMobile i:hover{
+    color: rgb(17, 128, 226);
+   }
+
+   /* slider */
+   .slider{
+    height: 100%;
+   }
+   .slider img{
+    min-width: 100%;
+    padding-top: 0%;
+    height: 200px;
+   }
+   .content_block_theband{
+   margin-top: 5rem;
+   width: 100%;
+   }
+   .content_for_css{
+    display: block;
+    margin: 0;
+    margin-top: 2rem;
+    max-width: 100%;
+   }
+   .sologen_theband{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+   }
+   .Theband_title{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .content_band{
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic small', 'Arial Narrow', sans-serif;
+   }
+   .profile_photo{
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   }
+   .profile{
+    flex-basis: 100%;
+    text-align: center;
+   }
+   .profile img{
+    max-width: 90%;
+    min-height: 60%;
+   }
+
+   /* tour content */
+   .block_tour_dates{
+
+   }
+   .tour_content_css{
+    margin: 0;
+    padding: 8px 16px;
+    width: 100%;
+   }
+   .block_information_country{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: block;
+   }
+   .country_newyork{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.5rem;
+   }
+   .country_paris{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.5rem;
+   }
+   .country_sanfran{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.5rem;
+   }
+   .content_css .content_css_content{
+    padding: 1px 16px;
+   }
+
+   .contact_nearfooter{
+    margin: 5rem 16px 0;
+    padding: 0;
+    width: auto;
+   }
+   .contact_nearfooter .title_contact{
+    margin: 0;
+    padding: 0;
+   }
+   .information_important{
+    display: block;
+   }
+   .information_left{
+    margin-bottom: 16px;
+   }
+   .information_right{
+    display: block;
+   }
+   .name_email .name {
+    flex: 1;
+    width: 100%;
+   }
+   .information_right .name{
+    margin: 0;
+   }
+   .name_email .email {
+    flex: 1;
+    width: 100%;
+   }
+   .information_right .Message {
+    flex: 1;
+    width: 100%;
+   }
+
+   .mapverynice{
+    height: auto;
+    margin-top: 10rem;
+    max-width: 100%;
+    min-height: 320px;
+   }
+   .footer{
+    height: auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+   }
+    .modal_content{
+        min-width: 90%;
+    }
+}
+@media screen and (min-width: 675px ) {
+ 
+}
